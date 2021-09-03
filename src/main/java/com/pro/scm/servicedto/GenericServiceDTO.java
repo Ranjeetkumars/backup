@@ -1,0 +1,14 @@
+package com.pro.scm.servicedto;
+
+import lombok.Data;
+
+@Data
+public class GenericServiceDTO {
+	private String genericId;
+	private String genericName;
+	private String shortCode;
+	private String moduleId;
+	private String roleId;
+	private String userId;
+	private String status;
+}
